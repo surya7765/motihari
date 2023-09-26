@@ -1,0 +1,27 @@
+#lorem {
+  color: red;
+  font-size: 1rem;
+  font-weight: 20px;
+}
+
+img {
+  margin: 20px;
+  border: 2cm;
+}
+
+#nav-item {
+  display: flex;
+  list-style-type: none;
+  padding: 5px;
+}
+
+#nav-item > li {
+  padding: 5px;
+  outline: 1px dotted;
+}
+
+@media only screen and (max-width: 576px) {
+  #nav-item {
+    visibility: hidden;
+  }
+}
